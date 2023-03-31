@@ -1,7 +1,7 @@
 # Loginom RFM Kit CE
 
-* Версия: 2.0.2
-* Проверено: Loginom CE 6.5.1
+* Версия: 3.0.0
+* Проверено: Loginom CE 7.0.2
 
 Компоненты библиотеки **Loginom RFM Kit CE** реализуют группу методов сегментации, основанных на RFM-методах и их различных вариациях. Поставляются к бизнес-курсу [Базовые методы сегментации клиентов](https://loginom.ru/learning/content/base-segmentation-course) в Loginom Skills. Входными данными служат клиентские транзакции.
 
@@ -25,13 +25,13 @@
 
 * Loginom Community Edition. Коммерческие версии Loginom не поддерживаются;
 
-* Библиотека **Loginom Silver Kit** ([скачать на GitHub](https://github.com/loginom/loginom-silver-kit)). Версия не ниже 2.0.0.
+* Библиотека **Loginom Silver Kit** ([скачать на GitHub](https://github.com/loginom/loginom-silver-kit)). Версия не ниже 3.0.0.
 
 ## Порядок установки
 
 1. Определите рабочий каталог, где будут расположены ваши библиотеки на локальном диске.
-2. Создайте в нем подкаталог **customer_intelligence_pack**.
-3. Разместите папку **rfm_kit** в каталоге **customer_intelligence_pack**.
-4. Убедитесь, что библиотека **Loginom Silver Kit** находится в корне рабочего каталога в папке **silver_kit**.
+2. Создайте в нем подкаталог **libs**.
+3. Разместите папку **rfm_kit** в каталоге **libs**.
+4. Убедитесь, что библиотека **Loginom Silver Kit** находится в каталоге **libs** в папке **silver_kit**.
 
 ![Схема расположения библиотеки в рабочем каталоге](docs/img/rfm-kit.svg)
